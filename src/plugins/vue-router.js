@@ -18,7 +18,7 @@ export const router = new VueRouter({
   routes,
 });
 router.beforeEach((to, from, next) => {
-    next();
+  next();
 });
 
 Vue.router = router;
